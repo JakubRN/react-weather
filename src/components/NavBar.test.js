@@ -23,7 +23,9 @@ describe("<NavBar />", () => {
     expect(screen.getByText("ReactWeather")).toBeInTheDocument();
     expect(screen.getByText(/is a labor of/)).toBeInTheDocument();
     expect(screen.getByText("♥️")).toBeInTheDocument();
-    expect(screen.getByText(/project lovingly crafted by/)).toBeInTheDocument();
+    expect(
+      screen.getByText(/project originally crafted by/)
+    ).toBeInTheDocument();
     expect(screen.getByText("@denniskigen")).toBeInTheDocument();
     expect(screen.getByText(/It draws inspiration from/)).toBeInTheDocument();
     expect(screen.getByText("ng-weather")).toBeInTheDocument();

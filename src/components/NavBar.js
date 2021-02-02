@@ -65,7 +65,7 @@ const TemporaryDrawer = () => {
         <span role="img" aria-label="love emoji" style={{ color: "red" }}>
           ♥️
         </span>{" "}
-        project lovingly crafted by{" "}
+        project originally crafted by{" "}
         <a
           href="https://github.com/denniskigen"
           target="_blank"
@@ -83,6 +83,16 @@ const TemporaryDrawer = () => {
             ng-weather
           </a>
           , a similar projected written in Angular.
+        </p>
+        <p>
+          Current project is a fork, made by{" "}
+          <a
+            href="https://github.com/JakubRN"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @JakubRN
+          </a>
         </p>
       </Typography>
       <Divider variant="middle" />
@@ -176,7 +186,7 @@ export default function NavBar() {
           <TemporaryDrawer />
           <Button className="github-btn">
             <a
-              href="https://github.com/denniskigen/react-weather"
+              href="https://github.com/JakubRN/react-weather"
               target="_blank"
               rel="noopener noreferrer"
             >
