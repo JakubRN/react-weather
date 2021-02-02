@@ -2,8 +2,6 @@
 
 A simple React weather app that displays weather information from the OpenWeatherMap API.
 
-Fork is hosted at https://relaxed-morse-c3c4b7.netlify.app/
-
 ![Home page](https://github.com/JakubRN/react-weather/blob/master/public/screen.png)
 
 ## Getting started
